@@ -1,5 +1,5 @@
 body {
-	font-family: sans-serif;
+	font-family: 'Raleway', sans-serif;
 	color: #ab3939;
 	background: url('../../img/teslas.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -13,6 +13,10 @@ body {
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
 }
 
 #page-title {
