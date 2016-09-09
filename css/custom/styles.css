@@ -63,3 +63,44 @@ h1 {
 	justify-content: center;
 	align-items: center;
 }
+
+/* Pseduo Classes */
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: green;
+}
+
+a:hover {
+	color: #ab3939;
+}
+
+a:active {
+	color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
