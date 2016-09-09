@@ -46,6 +46,10 @@ h1 {
 }
 
 .package {
+	-webkit-transition: all 500ms ease-out 1s;
+	-moz-transition: all 500ms ease-out 1s;
+	-o-transition: all 500ms ease-out 1s;
+	transition: all 500ms ease-out 1s;
 	background-color: #e8e8e8;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
@@ -55,6 +59,12 @@ h1 {
 	font-size: 1.2em;
 	border-bottom: 10px solid green;
 	width: 200px;
+}
+
+.package:hover {
+	background-color: green;
+	color: white;
+	cursor: pointer;
 }
 
 #pricing-table {
