@@ -98,8 +98,17 @@ a:active {
 	list-style: square;
 }
 
+#blocks {
+	position: absolute;
+}
 
-
+.block {
+	height: 140px;
+	width: 250px;
+	background-color: #ab3939;
+	margin: 20px;
+	float: left;
+}
 
 
 
