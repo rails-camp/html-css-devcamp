@@ -92,9 +92,11 @@ a:active {
 	color: blue;
 }
 
-
-
-
+.content-bullets {
+	padding-left: 40px;
+	font-size: 1.5em;
+	list-style: square;
+}
 
 
 
