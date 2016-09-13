@@ -3,9 +3,96 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>HTML5 Tables</title>
+		
+		<style>
+			table {
+				font-family: sans-serif;
+				width: 100%;
+				border-collapse: collapse;
+			}
+		
+			th {
+				background-color: black;
+				color: white;
+			}
+			
+			td, th {
+				padding: 15px;
+				text-align: left;
+				border: 1px solid grey;
+			}
+			
+			tr:nth-child(even) {
+				background-color: brown;
+				color: white;
+			}
+		</style>
+		
+		
 	</head>
 
 	<body>
+	
+		<table>
+		
+			<tr>
+				<th>Name</th>
+				<th>Average</th>
+				<th>HRs</th>
+				<th>RBIs</th>
+				<th colspan="2"></th>
+			</tr>
+			
+			<tr>
+				<td>Altuve, Jose</td>
+				<td>.350</td>
+				<td>32</td>
+				<td>120</td>
+				<td>Edit</td>
+				<td>Delete</td>
+			</tr>
+			<tr>
+				<td>Bregman, Alex</td>
+				<td>.295</td>
+				<td>15</td>
+				<td>90</td>
+				<td>Edit</td>
+				<td>Delete</td>
+			</tr>
+			<tr>
+				<td>Correa, Carlos</td>
+				<td>.310</td>
+				<td>35</td>
+				<td>110</td>
+				<td>Edit</td>
+				<td>Delete</td>
+			</tr>
+			<tr>
+				<td>Reed, AJ</td>
+				<td>.280</td>
+				<td>25</td>
+				<td>80</td>
+				<td>Edit</td>
+				<td>Delete</td>
+			</tr>
+			<tr>
+				<td>White, Tyler</td>
+				<td>.285</td>
+				<td>20</td>
+				<td>80</td>
+				<td>Edit</td>
+				<td>Delete</td>
+			</tr>
+			<tr>
+				<td>Player XYZ</td>
+				<td colspan="5">Did not play this year</td>
+			</tr>
+			
+			<tr>
+				<td colspan="6">Totals: .....</td>
+			</tr>
+		
+		</table>
 	</body>
 
 </html>
