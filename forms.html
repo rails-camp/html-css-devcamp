@@ -6,7 +6,7 @@
 	</head>
 
 	<body>
-		<form action="contact_form.php" method="get">
+		<form action="contact_form.php" method="get" oninput="invoice.value=parseInt(total.value)+parseInt(shipping.value)">
 		
 			<label for="name">Name:</label>
 			<input type="text" name="name" placeholder="SNOW, JON" required><br>
@@ -18,11 +18,25 @@
 			<textarea name="message" rows="15" cols="100"></textarea><br>
 			
 			<label for="source">How did you hear about us?</label>
-			<select name="source" multiple="true">
+			<select name="source">
 				<option value="fb">Facebook</option>
 				<option value="google">Google</option>
 				<option value="yahoo">Yahoo</option>
 				<option value="twitter">Twitter</option>
+			</select>
+			
+			<br>
+			
+			<label for="shipping_method">Shipping Method:</label>
+			<select name="shipping_method">
+				<optgroup label="Business">
+					<option value="biz_overnight">Overnight</option>
+					<option value="biz_groung">Ground</option>
+				</optgroup>
+				<optgroup label="Residential">
+					<option value="res_overnight">Overnight</option>
+					<option value="res_groung">Ground</option>
+				</optgroup>
 			</select>
 			
 			<hr>
@@ -37,6 +51,16 @@
 			<label for="delivery">Shipping Preference:</label><br>
 			<input type="radio" name="delivery" value="in_store"> In Store<br>
 			<input type="radio" name="delivery" value="shipping"> Shipping<br>
+			
+			<hr>
+			
+			<label for="total">Subtotal:</label><br>
+			<input type="text" name="total" value="0" /><br>
+			
+			<label for="shipping">Shipping:</label><br>
+			<input type="text" name="shipping" value="9" /><br>
+			
+			Total for invoice: $<output name="invoice" for="total tax"></output>
 			
 			<hr>
 			
