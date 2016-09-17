@@ -1,0 +1,32 @@
+body {
+	font-family: sans-serif;
+	color: #ab3939;
+}
+
+#heading {
+	padding: 42px;
+	background: black;
+  -webkit-animation: myAnimation 5s infinite;
+  animation: myAnimation 5s infinite;
+}
+
+@-webkit-keyframes 'myAnimation' {
+  50% {
+    background-color: #e8e8e8;
+  }
+}
+
+@keyframes 'myAnimation' {
+  50% {
+    background-color: #e8e8e8;
+  }
+}
+  
+#page-title {
+  	
+}
+
+.content {
+	font-size: 0.8em;
+	color: #767676;
+}
