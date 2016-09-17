@@ -1,0 +1,22 @@
+body {
+	font-family: sans-serif;
+	color: #ab3939;
+  background: url('teslas.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+#heading {
+	padding: 42px;
+	background: black;
+}
+
+#page-title {
+  	
+}
+
+.content {
+	font-size: 0.8em;
+	color: #767676;
+}
