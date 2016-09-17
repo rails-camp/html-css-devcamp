@@ -1,0 +1,18 @@
+body {
+	font-family: sans-serif;
+	color: #ab3939;
+}
+
+#heading {
+	padding: 42px;
+	background-color: #e8e8e8;
+}
+
+#page-title {
+	
+}
+
+.content {
+	font-size: 0.8em;
+	color: #767676;
+}
